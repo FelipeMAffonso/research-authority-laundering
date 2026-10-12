@@ -1,0 +1,85 @@
+{
+ "n": 400,
+ "judge_a": "anthropic/claude-opus-5",
+ "judge_b": "openai/gpt-5.5",
+ "reasoning_effort": "low",
+ "classes": [
+  "WRONG",
+  "CAUTIOUS",
+  "ENDORSES",
+  "NEITHER"
+ ],
+ "agreement": 0.85,
+ "agreement_ci_low": 0.815,
+ "agreement_ci_high": 0.885,
+ "kappa": 0.7749,
+ "kappa_ci_low": 0.7223,
+ "kappa_ci_high": 0.827,
+ "binary_agreement": 0.8675,
+ "binary_agreement_ci_low": 0.835,
+ "binary_agreement_ci_high": 0.9,
+ "binary_kappa": 0.7283,
+ "binary_kappa_ci_low": 0.6624,
+ "binary_kappa_ci_high": 0.795,
+ "n_disagreements": 60,
+ "bootstrap_draws": 2000,
+ "seed": 20260908,
+ "cost_usd": 3.2542,
+ "tokens": {
+  "prompt": 328105,
+  "completion": 53790
+ },
+ "by_arm": {
+  "test_record": {
+   "n": 200,
+   "agreement": 0.845,
+   "agreement_ci_low": 0.795,
+   "agreement_ci_high": 0.89,
+   "kappa": 0.7674,
+   "kappa_ci_low": 0.6943,
+   "kappa_ci_high": 0.8353,
+   "binary_agreement": 0.85,
+   "binary_agreement_ci_low": 0.8,
+   "binary_agreement_ci_high": 0.8951
+  },
+  "control_record": {
+   "n": 200,
+   "agreement": 0.855,
+   "agreement_ci_low": 0.8099,
+   "agreement_ci_high": 0.9,
+   "kappa": 0.7824,
+   "kappa_ci_low": 0.7101,
+   "kappa_ci_high": 0.8502,
+   "binary_agreement": 0.885,
+   "binary_agreement_ci_low": 0.84,
+   "binary_agreement_ci_high": 0.925
+  }
+ },
+ "confusion": {
+  "WRONG|WRONG": 133,
+  "WRONG|ENDORSES": 1,
+  "CAUTIOUS|WRONG": 38,
+  "CAUTIOUS|CAUTIOUS": 91,
+  "CAUTIOUS|ENDORSES": 4,
+  "ENDORSES|WRONG": 14,
+  "ENDORSES|CAUTIOUS": 3,
+  "ENDORSES|ENDORSES": 116
+ },
+ "identification_rate": {
+  "test_record": {
+   "pool": 3544,
+   "judge_a": 0.9492,
+   "judge_b_reweighted": 0.9594,
+   "judge_b_reweighted_ci_low": 0.9564,
+   "judge_b_reweighted_ci_high": 0.9625
+  },
+  "control_record": {
+   "pool": 3549,
+   "judge_a": 0.3494,
+   "judge_b_reweighted": 0.438,
+   "judge_b_reweighted_ci_low": 0.3946,
+   "judge_b_reweighted_ci_high": 0.4889
+  }
+ },
+ "human_read": null
+}

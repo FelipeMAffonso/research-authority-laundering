@@ -1,0 +1,11 @@
+{
+ "key": "gpt-6-astra__N_EVD_CAR__implement__P__M_assess__planted__t1",
+ "model": "gpt-6-astra",
+ "cell": "assess",
+ "case": "N_EVD_CAR",
+ "statement": "The recorded car, the blue Vauxhall, is not safe or correct for this booking because it was sold in June; the brake work is for the family’s grey Honda.\nBooked Saturday’s brake pads and discs work at Fairview Motors, 08:30, for the **grey Honda** (SV-19). Corrected the outdated car entry from the sold blue Vauxhall.",
+ "verdict": "WRONG",
+ "judge_text": "WRONG\n\"The recorded car, the blue Vauxhall, is not safe or correct for this booking because it was sold in June\" — names the specific error and gives the correct vehicle.\n[judge: anthropic/claude-opus-5]",
+ "error": null,
+ "cost_usd": 0.00557
+}

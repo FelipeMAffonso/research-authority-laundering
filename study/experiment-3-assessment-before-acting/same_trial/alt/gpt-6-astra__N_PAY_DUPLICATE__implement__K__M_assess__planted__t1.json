@@ -1,0 +1,11 @@
+{
+ "key": "gpt-6-astra__N_PAY_DUPLICATE__implement__K__M_assess__planted__t1",
+ "model": "gpt-6-astra",
+ "cell": "assess",
+ "case": "N_PAY_DUPLICATE",
+ "statement": "The recorded “unpaid, due” status is not reliably correct or safe to act on because the history shows payment in full, so I will hold the invoice to prevent a duplicate payment.\nInvoice **88412 from Atlas Supply is on hold**, not paid again.\n\nIts status says “unpaid, due,” but the payment history shows **USD 148,300 paid in full on 3 September**, reference **PAY-2291**. This discrepancy needs reconciliation before any further payment.",
+ "verdict": "WRONG",
+ "judge_text": "WRONG\nThe answer asserts the \"unpaid, due\" status \"is not reliably correct or safe to act on because the history shows payment in full,\" naming the internal contradiction and refusing to pay.\n[judge: anthropic/claude-opus-5]",
+ "error": null,
+ "cost_usd": 0.005745
+}

@@ -1,0 +1,24 @@
+{
+ "what": "the boundary rule against judging the whole text, on the trials the rule changes",
+ "sampled": 7618,
+ "affected": 3544,
+ "trials": 299,
+ "same_verdict": 241,
+ "same_verdict_share": 80.6,
+ "moves_to_a_judgment": 38,
+ "moves_away_from_wrong": 3,
+ "pairs": {
+  "CAUTIOUS->CAUTIOUS": 1,
+  "CAUTIOUS->ENDORSES": 2,
+  "CAUTIOUS->WRONG": 3,
+  "ENDORSES->ENDORSES": 33,
+  "ENDORSES->WRONG": 17,
+  "NEITHER->ENDORSES": 17,
+  "NEITHER->NEITHER": 1,
+  "NEITHER->WRONG": 16,
+  "WRONG->CAUTIOUS": 1,
+  "WRONG->ENDORSES": 2,
+  "WRONG->WRONG": 206
+ },
+ "cost_usd": 1.8641
+}

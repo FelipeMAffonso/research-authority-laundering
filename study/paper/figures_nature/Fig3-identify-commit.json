@@ -1,0 +1,164 @@
+{
+  "figure": "Fig3-identify-commit",
+  "keys_read": [
+    "e1.identification.all_cases",
+    "e1.identification.faster",
+    "e1.identification.newest",
+    "e2.commission.all.model_weighted",
+    "e2.commission.faster.model_weighted",
+    "e2.commission.newest.model_weighted"
+  ],
+  "number_reads": {
+    "e1.identification.all_cases": {
+      "denominator": 3544,
+      "numerator": 3361,
+      "unit": "per cent",
+      "value": 94.8363,
+      "what": "share of scored answers about the test record that call the value unsafe, every case"
+    },
+    "e2.commission.all.model_weighted": {
+      "bound_lower": null,
+      "bound_upper": null,
+      "denominator": 17268,
+      "interval": [
+        11.6823,
+        29.0699
+      ],
+      "models": 16,
+      "numerator": 3430,
+      "pooled": 19.8633,
+      "unit": "per cent, every model weighted equally",
+      "value": 20.0713,
+      "what": "commission on the test record among identified pairs, all models"
+    },
+    "e1.identification.faster": {
+      "denominator": 2552,
+      "numerator": 2389,
+      "unit": "per cent",
+      "value": 93.6129,
+      "what": "share of scored answers about the test record that call the value unsafe, every case, faster and lower-cost models"
+    },
+    "e2.commission.faster.model_weighted": {
+      "bound_lower": null,
+      "bound_upper": null,
+      "denominator": 11988,
+      "interval": [
+        19.5979,
+        36.739
+      ],
+      "models": 11,
+      "numerator": 3244,
+      "pooled": 27.0604,
+      "unit": "per cent, every model weighted equally",
+      "value": 27.7539,
+      "what": "commission on the test record among identified pairs, faster and lower-cost"
+    },
+    "e1.identification.newest": {
+      "denominator": 992,
+      "numerator": 972,
+      "unit": "per cent",
+      "value": 97.9839,
+      "what": "share of scored answers about the test record that call the value unsafe, every case, newest and most safety-trained models"
+    },
+    "e2.commission.newest.model_weighted": {
+      "bound_lower": null,
+      "bound_upper": null,
+      "denominator": 5280,
+      "interval": [
+        0.0858,
+        9.3132
+      ],
+      "models": 5,
+      "numerator": 186,
+      "pooled": 3.5227,
+      "unit": "per cent, every model weighted equally",
+      "value": 3.1694,
+      "what": "commission on the test record among identified pairs, newest and most safety-trained"
+    }
+  },
+  "sources": [
+    {
+      "path": "study/analysis/PAPER-NUMBERS.json",
+      "sha256": "c4107eba159134c3dba910c54fc3cb0242c071fc7ca85770457dfce5dffd42ac",
+      "selector": "source"
+    },
+    {
+      "path": "study/paper/figstyle.py",
+      "sha256": "c97d3372700bc2863ea726dc271bc30320eeed4dfad600205cba1156899cc609",
+      "selector": "source"
+    },
+    {
+      "path": "study/paper/FIGURE-STYLE-SPEC.md",
+      "sha256": "8cda1d3183bb9a93f13f78c710747400d4e7db5c2d4034c56a4ef1cf136f8db3",
+      "selector": "source"
+    },
+    {
+      "path": "study/paper/figures_nature/build_charts.py",
+      "sha256": "a27f814c261bbc887676f85a882467baa5a9e4d14e6af290fc2a12dd7e43454e",
+      "selector": "source"
+    },
+    {
+      "path": "study/paper/figures_nature/chart_common.py",
+      "sha256": "f3c8b4c635a4d50d730e48d6683f73124d497d51e35139d609f127313d8630ab",
+      "selector": "source"
+    }
+  ],
+  "derivations": [],
+  "caption": "## Figure 2. Identification of the potentially harmful entry and completion of the harmful action\n\n**a**, All sixteen models. **b**, The faster, lower-cost models. **c**, The newest, most safety-trained models. Purple bars show the share of scored answers that called the entry unsafe; grey bars show the harmful action rate in valid trials on model-case pairs in which the model had identified the entry as unsafe when asked. The two measures have different denominators. Action rates weight models equally. Whiskers show bootstrap confidence intervals from resampling models and then cases within models. Sample sizes are: all models, n = 3,544<!-- num:e1.identification.all_cases --> scored answers and 17,268<!-- num:e2.commission.all.model_weighted --> agent trials; faster, lower-cost models, n = 2,552<!-- num:e1.identification.faster --> scored answers and 11,988<!-- num:e2.commission.faster.model_weighted --> agent trials; newest, most safety-trained models, n = 992<!-- num:e1.identification.newest --> scored answers and 5,280<!-- num:e2.commission.newest.model_weighted --> agent trials.",
+  "outputs": {
+    "png": {
+      "path": "study/paper/figures_nature/Fig3-identify-commit.png",
+      "sha256": "69ed40715ed75698b7aa0720e6239718aa03fe0bec1fc065d39d434c670de108",
+      "pixels": [
+        2125,
+        768
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "pdf": {
+      "path": "study/paper/figures_nature/Fig3-identify-commit.pdf",
+      "sha256": "f0123e0973168ad0d3f1bb9dc3b3bb697c6f87dfc7498fd7c0d305b060a32ad0"
+    }
+  },
+  "checks": {
+    "text_within_canvas": true,
+    "visible_text": [
+      "95",
+      "20",
+      "a",
+      "All models",
+      "Asked",
+      "Acting",
+      "Share (%)",
+      "0",
+      "20",
+      "40",
+      "60",
+      "80",
+      "100",
+      "Identified the entry or action as unsafe",
+      "Completed the harmful action",
+      "94",
+      "28",
+      "b",
+      "Faster, lower-cost models",
+      "Asked",
+      "Acting",
+      "98",
+      "3",
+      "c",
+      "Newest, most safety-trained models",
+      "Asked",
+      "Acting"
+    ],
+    "public_vocabulary": true,
+    "caption_no_provenance": true
+  },
+  "intended_mm": [
+    180.0,
+    76.0
+  ]
+}

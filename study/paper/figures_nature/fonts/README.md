@@ -1,0 +1,1 @@
+Material Symbols Outlined, variable TrueType font by Google, Apache License 2.0 (https://github.com/google/material-design-icons). Downloaded from fonts.gstatic.com on 10 September 2026 for the figure builders in this folder, so that the figures build without a network connection.

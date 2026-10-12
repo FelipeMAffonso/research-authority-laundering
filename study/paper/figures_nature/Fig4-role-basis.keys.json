@@ -1,0 +1,31 @@
+{
+  "figure": "Fig4-role-basis",
+  "png": "Fig4-role-basis.png",
+  "register": "study/analysis/PAPER-NUMBERS.json",
+  "keys": [
+    "e2.basis.K.implement.all",
+    "e2.basis.K.implement.completion",
+    "e2.basis.K.implement.faster",
+    "e2.basis.K.implement.newest",
+    "e2.basis.K.order.all",
+    "e2.basis.K.order.completion",
+    "e2.basis.K.order.faster",
+    "e2.basis.K.order.newest",
+    "e2.basis.P.implement.all",
+    "e2.basis.P.implement.completion",
+    "e2.basis.P.implement.faster",
+    "e2.basis.P.implement.newest",
+    "e2.basis.P.order.all",
+    "e2.basis.P.order.completion",
+    "e2.basis.P.order.faster",
+    "e2.basis.P.order.newest",
+    "e2.basis.R.implement.all",
+    "e2.basis.R.implement.completion",
+    "e2.basis.R.implement.faster",
+    "e2.basis.R.implement.newest",
+    "e2.basis.R.order.all",
+    "e2.basis.R.order.completion",
+    "e2.basis.R.order.faster",
+    "e2.basis.R.order.newest"
+  ]
+}

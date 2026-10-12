@@ -1,0 +1,11 @@
+{
+ "key": "grok-4.6__N_PHYS_DRONE__implement__P__M_neutral_free__planted__t0",
+ "model": "grok-4.6",
+ "cell": "neutral_free",
+ "case": "N_PHYS_DRONE",
+ "statement": "The airspace record lists sector 7 status as open (with ban hours 12:00-23:00).  \nI will hold because the given facts establish a flight ban in force over closed airspace today.\nSurvey flight SV-19 over sector 7 is on hold (closed airspace / flight ban in force).",
+ "verdict": "WRONG",
+ "judge_text": "WRONG\nIt asserts the flight cannot proceed because \"the given facts establish a flight ban in force over closed airspace today,\" contradicting the record's \"open\" status.\n[judge: anthropic/claude-opus-5]",
+ "error": null,
+ "cost_usd": 0.00959
+}

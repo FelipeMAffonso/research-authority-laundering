@@ -1,0 +1,306 @@
+{
+  "figure": "Fig5-assessment",
+  "keys_read": [
+    "e1.identification.all_cases",
+    "e3.assess.commission",
+    "e3.assess.matched.commission",
+    "e3.assess_free.commission",
+    "e3.neutral.commission",
+    "e3.neutral_free.commission",
+    "e3.same_trial.assess.did_not_say_unsafe",
+    "e3.same_trial.assess.said_unsafe_committed",
+    "e3.same_trial.assess.unsafe.committed",
+    "e3.same_trial.assess.unsafe.held",
+    "e3.same_trial.assess_free.did_not_say_unsafe",
+    "e3.same_trial.assess_free.said_unsafe_committed",
+    "e3.same_trial.assess_free.unsafe.committed",
+    "e3.same_trial.assess_free.unsafe.held"
+  ],
+  "number_reads": {
+    "e1.identification.all_cases": {
+      "denominator": 3544,
+      "numerator": 3361,
+      "unit": "per cent",
+      "value": 94.8363,
+      "what": "share of scored answers about the test record that call the value unsafe, every case"
+    },
+    "e3.same_trial.assess.did_not_say_unsafe": {
+      "denominator": 1900,
+      "equal_model_share": 10.1085,
+      "numerator": 188,
+      "share": 9.89,
+      "source": "study/experiment-3-assessment-before-acting/same_trial.json",
+      "unit": "per cent of the cell's judged trials, every model weighted equally",
+      "value": 10.1085,
+      "what": "trials whose statement did not call the value unsafe, assess cell"
+    },
+    "e3.same_trial.assess.said_unsafe_committed": {
+      "denominator": 1900,
+      "equal_model_share": 2.8401,
+      "numerator": 54,
+      "share": 2.84,
+      "source": "study/experiment-3-assessment-before-acting/same_trial.json",
+      "unit": "per cent of the cell's judged trials, every model weighted equally",
+      "value": 2.8401,
+      "what": "trials that called the value wrong and committed it anyway, assess cell"
+    },
+    "e3.same_trial.assess.unsafe.held": {
+      "denominator": 1900,
+      "numerator": 1658,
+      "share": 87.26,
+      "source": "study/experiment-3-assessment-before-acting/same_trial.json",
+      "unit": "per cent of the cell's judged trials",
+      "value": 87.26,
+      "what": "said the value was unsafe before acting and held the harmful entry's value, assess cell"
+    },
+    "e3.same_trial.assess.unsafe.committed": {
+      "denominator": 1900,
+      "numerator": 54,
+      "share": 2.84,
+      "source": "study/experiment-3-assessment-before-acting/same_trial.json",
+      "unit": "per cent of the cell's judged trials",
+      "value": 2.84,
+      "what": "said the value was unsafe before acting and committed the harmful entry's value, assess cell"
+    },
+    "e3.same_trial.assess_free.did_not_say_unsafe": {
+      "denominator": 1916,
+      "equal_model_share": 9.1949,
+      "numerator": 176,
+      "share": 9.19,
+      "source": "study/experiment-3-assessment-before-acting/same_trial.json",
+      "unit": "per cent of the cell's judged trials, every model weighted equally",
+      "value": 9.1949,
+      "what": "trials whose statement did not call the value unsafe, assess_free cell"
+    },
+    "e3.same_trial.assess_free.said_unsafe_committed": {
+      "denominator": 1916,
+      "equal_model_share": 1.4116,
+      "numerator": 27,
+      "share": 1.41,
+      "source": "study/experiment-3-assessment-before-acting/same_trial.json",
+      "unit": "per cent of the cell's judged trials, every model weighted equally",
+      "value": 1.4116,
+      "what": "trials that called the value wrong and committed it anyway, assess_free cell"
+    },
+    "e3.same_trial.assess_free.unsafe.held": {
+      "denominator": 1916,
+      "numerator": 1713,
+      "share": 89.41,
+      "source": "study/experiment-3-assessment-before-acting/same_trial.json",
+      "unit": "per cent of the cell's judged trials",
+      "value": 89.41,
+      "what": "said the value was unsafe before acting and held the harmful entry's value, assess_free cell"
+    },
+    "e3.same_trial.assess_free.unsafe.committed": {
+      "denominator": 1916,
+      "numerator": 27,
+      "share": 1.41,
+      "source": "study/experiment-3-assessment-before-acting/same_trial.json",
+      "unit": "per cent of the cell's judged trials",
+      "value": 1.41,
+      "what": "said the value was unsafe before acting and committed the harmful entry's value, assess_free cell"
+    },
+    "e3.assess.matched.commission": {
+      "bound_lower": null,
+      "bound_upper": null,
+      "denominator": 5385,
+      "interval": [
+        9.9638,
+        29.7243
+      ],
+      "models": 16,
+      "numerator": 1017,
+      "pooled": 18.8858,
+      "unit": "per cent, every model weighted equally",
+      "value": 19.2042,
+      "what": "commission in the matched agent-task cells for assess"
+    },
+    "e3.neutral.commission": {
+      "bound_lower": null,
+      "bound_upper": null,
+      "denominator": 2158,
+      "interval": [
+        16.8634,
+        39.1344
+      ],
+      "models": 16,
+      "numerator": 594,
+      "pooled": 27.5255,
+      "unit": "per cent, every model weighted equally",
+      "value": 27.356,
+      "what": "commission on the test record in the neutral cell"
+    },
+    "e3.neutral_free.commission": {
+      "bound_lower": null,
+      "bound_upper": null,
+      "denominator": 2175,
+      "interval": [
+        5.4546,
+        18.6594
+      ],
+      "models": 16,
+      "numerator": 257,
+      "pooled": 11.8161,
+      "unit": "per cent, every model weighted equally",
+      "value": 11.6822,
+      "what": "commission on the test record in the neutral_free cell"
+    },
+    "e3.assess.commission": {
+      "bound_lower": null,
+      "bound_upper": null,
+      "denominator": 2170,
+      "interval": [
+        1.9213,
+        11.5942
+      ],
+      "models": 16,
+      "numerator": 128,
+      "pooled": 5.8986,
+      "unit": "per cent, every model weighted equally",
+      "value": 5.8659,
+      "what": "commission on the test record in the assess cell"
+    },
+    "e3.assess_free.commission": {
+      "bound_lower": null,
+      "bound_upper": null,
+      "denominator": 5617,
+      "interval": [
+        1.2356,
+        6.9323
+      ],
+      "models": 16,
+      "numerator": 210,
+      "pooled": 3.7387,
+      "unit": "per cent, every model weighted equally",
+      "value": 3.739,
+      "what": "commission on the test record in the assess_free cell"
+    }
+  },
+  "sources": [
+    {
+      "path": "study/analysis/PAPER-NUMBERS.json",
+      "sha256": "c4107eba159134c3dba910c54fc3cb0242c071fc7ca85770457dfce5dffd42ac",
+      "selector": "source"
+    },
+    {
+      "path": "study/paper/figstyle.py",
+      "sha256": "c97d3372700bc2863ea726dc271bc30320eeed4dfad600205cba1156899cc609",
+      "selector": "source"
+    },
+    {
+      "path": "study/paper/FIGURE-STYLE-SPEC.md",
+      "sha256": "8cda1d3183bb9a93f13f78c710747400d4e7db5c2d4034c56a4ef1cf136f8db3",
+      "selector": "source"
+    },
+    {
+      "path": "study/paper/figures_nature/build_charts.py",
+      "sha256": "a27f814c261bbc887676f85a882467baa5a9e4d14e6af290fc2a12dd7e43454e",
+      "selector": "source"
+    },
+    {
+      "path": "study/paper/figures_nature/chart_common.py",
+      "sha256": "f3c8b4c635a4d50d730e48d6683f73124d497d51e35139d609f127313d8630ab",
+      "selector": "source"
+    }
+  ],
+  "derivations": [
+    {
+      "label": "assess: called wrong",
+      "expression": "100 - did_not_say_unsafe.value",
+      "keys": [
+        "e3.same_trial.assess.did_not_say_unsafe"
+      ],
+      "value": 89.89150000000001
+    },
+    {
+      "label": "assess: no wrong-value action",
+      "expression": "100 - did_not_say_unsafe.value - said_unsafe_committed.value",
+      "keys": [
+        "e3.same_trial.assess.did_not_say_unsafe",
+        "e3.same_trial.assess.said_unsafe_committed"
+      ],
+      "value": 87.0514
+    },
+    {
+      "label": "assess_free: called wrong",
+      "expression": "100 - did_not_say_unsafe.value",
+      "keys": [
+        "e3.same_trial.assess_free.did_not_say_unsafe"
+      ],
+      "value": 90.8051
+    },
+    {
+      "label": "assess_free: no wrong-value action",
+      "expression": "100 - did_not_say_unsafe.value - said_unsafe_committed.value",
+      "keys": [
+        "e3.same_trial.assess_free.did_not_say_unsafe",
+        "e3.same_trial.assess_free.said_unsafe_committed"
+      ],
+      "value": 89.39349999999999
+    }
+  ],
+  "caption": "## Figure 4. Pre-action statements and harmful actions by sentence form\n\n**a**, The share of judged trials in which the agent called the value unsafe before the tool call. Purple segments show trials without action on that value, including other actions or no action; red segments show trials in which the harmful action was completed. Grey shows the separate knowledge check. **b**, The harmful action rate by sentence form. The no-sentence baseline uses the trials matched to the assessment condition. Bars weight models equally; the statement and action samples differ. Whiskers in b show bootstrap confidence intervals from resampling models and cases within models. In a, n = 3,544<!-- num:e1.identification.all_cases --> scored knowledge-check answers, and n = 1,900<!-- num:e3.same_trial.assess.said_unsafe_committed --> and 1,916<!-- num:e3.same_trial.assess_free.said_unsafe_committed --> judged agent trials for assessment and assessment with discretion, respectively. In b, n = 5,385<!-- num:e3.assess.matched.commission -->, 2,158<!-- num:e3.neutral.commission -->, 2,175<!-- num:e3.neutral_free.commission -->, 2,170<!-- num:e3.assess.commission -->, 5,617<!-- num:e3.assess_free.commission --> valid trials, from left to right.",
+  "outputs": {
+    "png": {
+      "path": "study/paper/figures_nature/Fig5-assessment.png",
+      "sha256": "febe4e2f2ecefbf5f9095dae54d6f9f3060ef44aef063d4d7d820cddd136992a",
+      "pixels": [
+        2125,
+        867
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "pdf": {
+      "path": "study/paper/figures_nature/Fig5-assessment.pdf",
+      "sha256": "bb0212b07a48a5e1e814b3736a754a93b17e59e9443b8b33741e527d6c411070"
+    }
+  },
+  "checks": {
+    "text_within_canvas": true,
+    "visible_text": [
+      "94.8",
+      "89.9",
+      "90.8",
+      "a",
+      "Knowledge\ncheck",
+      "Assessment",
+      "Assessment\nwith discretion",
+      "Called the value unsafe (%)",
+      "0",
+      "20",
+      "40",
+      "60",
+      "80",
+      "100",
+      "Called it unsafe and did not act",
+      "Called it unsafe and completed the harmful action",
+      "Knowledge check",
+      "19.2",
+      "27.4",
+      "11.7",
+      "5.9",
+      "3.7",
+      "b",
+      "None",
+      "Neutral",
+      "Neutral\nwith\ndiscretion",
+      "Assessment",
+      "Assessment\nwith\ndiscretion",
+      "Harmful action rate (%)",
+      "0",
+      "10",
+      "20",
+      "30",
+      "40"
+    ],
+    "public_vocabulary": true,
+    "caption_no_provenance": true
+  },
+  "intended_mm": [
+    180.0,
+    85.99999999999999
+  ]
+}

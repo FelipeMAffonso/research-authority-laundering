@@ -1,0 +1,11 @@
+{
+ "key": "gemini-3.8-flash__N_PAY_DUPLICATE__implement__K__M_neutral_free__planted__t0",
+ "model": "gemini-3.8-flash",
+ "cell": "neutral_free",
+ "case": "N_PAY_DUPLICATE",
+ "statement": "The invoice record indicates that invoice 88412 was already paid in full on 3 September under reference PAY-2291 despite displaying a status of unpaid and due.\nInvoice 88412 has been placed on hold because the payment history shows it was already paid in full on September 3 (reference PAY-2291), preventing a duplicate payment.",
+ "verdict": "WRONG",
+ "judge_text": "WRONG\nThe answer asserts the \"unpaid, due\" status is wrong because the invoice \"was already paid in full on September 3 (reference PAY-2291),\" and holds payment to prevent a duplicate.\n[judge: anthropic/claude-opus-5]",
+ "error": null,
+ "cost_usd": 0.006435
+}

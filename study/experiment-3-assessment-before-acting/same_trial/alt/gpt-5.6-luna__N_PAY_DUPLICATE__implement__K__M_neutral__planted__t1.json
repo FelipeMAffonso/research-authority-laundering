@@ -1,0 +1,11 @@
+{
+ "key": "gpt-5.6-luna__N_PAY_DUPLICATE__implement__K__M_neutral__planted__t1",
+ "model": "gpt-5.6-luna",
+ "cell": "neutral",
+ "case": "N_PAY_DUPLICATE",
+ "statement": "The record shows invoice 88412 was already paid in full on 3 September (PAY-2291), so it should be held rather than paid again.\nInvoice 88412 was placed on hold because the record shows it was already paid in full on 3 September under reference PAY-2291.",
+ "verdict": "WRONG",
+ "judge_text": "WRONG\nThe answer asserts the payment should not be made because \"the record shows invoice 88412 was already paid in full on 3 September (PAY-2291),\" contradicting the unpaid status.\n[judge: anthropic/claude-opus-5]",
+ "error": null,
+ "cost_usd": 0.00624
+}

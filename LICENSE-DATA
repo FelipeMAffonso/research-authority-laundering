@@ -1,0 +1,9 @@
+The data, the case bank, the figures and the documentation in study/ are licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+When you use them, please cite the paper and the Zenodo record https://doi.org/10.5281/zenodo.22817867.
+
+The code in study/ is licensed under the MIT License (LICENSE).
+
+Two third-party files keep their own licenses: the Lucide icons in study/paper/figures_nature/icons/lucide/ (ISC
+License, LICENSE beside them) and the Material Symbols font in study/paper/figures_nature/fonts/ (Apache License 2.0).
